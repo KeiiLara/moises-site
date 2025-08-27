@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #ffdde1, #ee9ca7);
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-bottom: 2px solid #ff6f91;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #ff4d6d;
+}
+
+.subtitulo {
+    font-style: italic;
+    color: #444;
+}
+
+.contenedor {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+.mensaje {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.mensaje h2 {
+    color: #e63946;
+}
+
+.mensaje p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.galeria h2 {
+    color: #ff4d6d;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.imagenes {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagenes img {
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.imagenes img:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top: 2px solid #ff6f91;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #444;
+}
